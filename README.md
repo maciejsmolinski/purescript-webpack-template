@@ -1,6 +1,6 @@
-# PureScript/Webpack template
+# PureScript × Webpack
 
-A basic template of PureScript Webpack integration using spago for managing purescript dependencies and build process.
+🎒A minimal PureScript/Spago webpack configuration template.
 
 ## Installation instructions
 
