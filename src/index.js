@@ -1,5 +1,5 @@
-import PureScript from './Main.purs';
-import * as JavaScript from './Main';
+import * as PureScript from './PureScript.purs';
+import * as JavaScript from './JavaScript';
 
 JavaScript.main();
 PureScript.main();

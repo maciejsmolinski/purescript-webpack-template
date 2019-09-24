@@ -1,4 +1,4 @@
-module Main where
+module PureScript where
 
 import Prelude
 
