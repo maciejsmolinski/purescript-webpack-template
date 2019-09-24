@@ -12,3 +12,9 @@ Installation instructions:
 ```
 npm install
 ```
+
+Build instructions:
+
+```
+npm run build
+```

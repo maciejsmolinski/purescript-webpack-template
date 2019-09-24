@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "spago install",
-    "build": "spago build",
+      "build": "spago build",
+      "postbuild": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "spago": "^0.10.0"
+    "spago": "^0.10.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   }
 }
