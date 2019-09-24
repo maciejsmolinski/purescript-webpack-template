@@ -2,20 +2,32 @@
 
 🎒A minimal PureScript/Spago webpack configuration template.
 
-## Installation instructions
+## New project setup
+
+Based on github repository without git history:
 
 ```shell
-npm install
+$ npx degit maciejsmolinski/purescript-webpack-template new-purescript-project && \
+  cd new-purescript-project && \
+  npm install
+```
+
+Complete clone of the git repository:
+
+```shell
+$ git clone git@github.com:maciejsmolinski/purescript-webpack-template.git && \
+  cd purescript-webpack-template && \
+  npm install
 ```
 
 ## Build instructions:
 
 ```shell
 # Build once
-npm run build
+$ npm run build
 
 # Build continuously
-npm run build:watch
+$ npm run build:watch
 ```
 
 ## Executing the code
