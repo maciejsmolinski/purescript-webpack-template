@@ -1,13 +1,12 @@
 {
-  "name": "purescript-webpack",
+  "name": "purescript-webpack-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "postinstall": "spago install",
     "build": "webpack",
-    "build:watch": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:watch": "webpack --watch"
   },
   "author": "",
   "license": "ISC",
