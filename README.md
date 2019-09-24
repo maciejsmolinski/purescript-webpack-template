@@ -1,23 +1,23 @@
-# PureScript Webpack
+# PureScript/Webpack template
 
-Step by step:
+A basic template of PureScript Webpack integration using spago for managing purescript dependencies and build process.
 
-```
-npm init
-npm install spago --save-dev
-npx spago init
-npm install webpack webpack-cli --save-dev
-npm install purs-loader --save-dev
-```
+## Installation instructions
 
-Installation instructions:
-
-```
+```shell
 npm install
 ```
 
-Build instructions:
+## Build instructions:
 
-```
+```shell
+# Build once
 npm run build
+
+# Build continuously
+npm run build:watch
 ```
+
+## Executing the code
+
+Include `dist/bundle.js` in your web application or run `node dist/bundle.js` in node.
