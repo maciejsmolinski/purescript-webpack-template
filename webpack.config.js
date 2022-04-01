@@ -15,7 +15,7 @@ module.exports = {
                 test: /\.purs$/,
                 loader: 'purs-loader',
                 exclude: /node_modules/,
-                query: {
+                options: {
                     spago: true
                 }
             }
